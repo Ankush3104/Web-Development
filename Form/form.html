@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Form</title>
+</head>
+<body>
+  <center>
+    <h1>Personal Form</h1>
+  </center>
+
+  <form>
+    <!-- First & Last Name -->
+    <div>
+      <label for="first-name">First Name</label><br>
+      <input type="text" id="first-name" name="first-name" /><br><br>
+    </div>
+
+    <div>
+      <label for="last-name">Last Name</label><br>
+      <input type="text" id="last-name" name="last-name" /><br><br>
+    </div>
+
+    <!-- Mobile & Email -->
+    <div>
+      <label for="mobile">Mobile No.</label><br>
+      <input type="text" id="mobile" name="mobile" /><br><br>
+    </div>
+
+    <div>
+      <label for="email">Email ID</label><br>
+      <input type="email" id="email" name="email" /><br><br>
+    </div>
+
+    <!-- City -->
+    <div>
+      <label for="city">City</label><br>
+      <input type="text" id="city" name="city" /><br><br>
+    </div>
+
+    <!-- Gender -->
+    <div>
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <br><br>
+    </div>
+
+    <!-- Country -->
+    <div>
+      <label for="country">Country</label><br>
+      <select id="country" name="country">
+        <option value="">--Select--</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Israel">Israel</option>
+        <option value="UAE">UAE</option>
+      </select>
+      <br><br>
+    </div>
+
+    <!-- Preferences -->
+    <div>
+      <label>I like:</label><br>
+      <input type="radio" id="cola" name="drink" value="cola">
+      <label for="cola">Cola</label>
+
+      <input type="radio" id="pepsi" name="drink" value="pepsi">
+      <label for="pepsi">Pepsi</label>
+      <br><br>
+    </div>
+
+    <!-- Message -->
+    <div>
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="5" cols="30"></textarea>
+      <br><br>
+    </div>
+
+    <!-- Submit -->
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</body>
+</html>
